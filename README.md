@@ -1,7 +1,7 @@
 # Sparse-Auto-Encoder
 
 Tensorflow (tflearn) implementation of Convolutioanl sparse autoenocer, 
-also known as Winner-Takes-All autoencoder.
+also known as Winner-Takes-All autoencoder [1].
 
 To use:
 
@@ -30,5 +30,6 @@ save and load the model
     ae.save('./sparseAE.tflearn')
     ae.load('./sparseAE.tflearn')
 
-Reference: 
+Reference:
+
 [1] https://arxiv.org/pdf/1409.2752.pdf
